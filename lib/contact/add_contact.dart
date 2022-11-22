@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sosapp/contact/config/drawer.dart';
 
 
 class home_page extends StatefulWidget {
@@ -15,6 +16,11 @@ class _home_pageState extends State<home_page> {
       appBar: AppBar(
         title: Text("Welcome SOS"),
       ),
+    body: Column(
+
+    ),
+        return drawer();
     );
+
   }
 }
